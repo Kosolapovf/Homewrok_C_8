@@ -1,4 +1,5 @@
-﻿/* Задача 54 Задайте двумерный массив. Напишите программу,
+﻿
+/* Задача 54 Задайте двумерный массив. Напишите программу,
 которая упорядочит по убыванию элементы каждой строки двумерного массива.
 Например, задан массив
 1 4 7 2
@@ -9,7 +10,7 @@
 9 5 3 2
 8 4 4 2 */
 
- void InputArray(int[,] matrix)
+/* void InputArray(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -58,7 +59,7 @@ Console.WriteLine();
 ReleaseArray(matrix);
 PrintMatrix(matrix); 
 
-
+ */
 
 /*Задача 56 Задайте прямоугольный двумерный массив. 
 Напишите программу, которая будет находить строку с наименьшей суммой элементов.
@@ -72,7 +73,7 @@ PrintMatrix(matrix);
 выдаёт номер строки с наименьшей суммой элементов 1 строка  */
 
 //создание массива
-void InputArray(int[,] matrix)
+/* void InputArray(int[,] matrix)
 {
    for (int i = 0; i < matrix.GetLength(0); i++)
    {
@@ -130,7 +131,7 @@ int[,] matrix = new int[size[0], size[1]];
 
 InputArray(matrix);
 Console.WriteLine();
-ReleaseArray(matrix); 
+ReleaseArray(matrix);  */
 
 
 
@@ -143,7 +144,7 @@ ReleaseArray(matrix);
 18 20
 15 18 */
 
-
+/* 
 void InputArray(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -205,7 +206,7 @@ Console.WriteLine();
 
 int[,] matrixResult = ReleaseArray(matrix1, matrix2);
 Array(matrixResult);
-
+ */
 
 
 
@@ -217,7 +218,7 @@ Array(matrixResult);
 27(0,0,1) 90(0,1,1)
 26(1,0,1) 55(1,1,1)  */
 
-int[,,] FillArray(int row, int coll, int depth)
+/* int[,,] FillArray(int row, int coll, int depth)
 {
     int[,,] FilledArr = new int[row, coll, depth];
     int TempSize = row * coll * depth;
@@ -274,7 +275,7 @@ int[] UniqueValue(int size) // size = r  c  d
 }
 
 int[,,] arrayTask60 = FillArray(4, 3, 2);
-Print3DArray(arrayTask60);
+Print3DArray(arrayTask60); */
 
 /*  Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
 Например, на выходе получается вот такой массив
@@ -283,7 +284,7 @@ Print3DArray(arrayTask60);
 11 16 15 06
 10 09 08 07
   */
-int n = 4;
+/* int n = 4;
 int[,] sqareMatrix = new int[n, n];
 
 int temp = 1;
@@ -319,4 +320,4 @@ void WriteArray (int[,] array)
     }
     Console.WriteLine();
   }
-}
+}  */
